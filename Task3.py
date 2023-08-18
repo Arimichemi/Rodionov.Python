@@ -1,4 +1,7 @@
-massive = [1, 9, 7, 12, 27]
+massivenum = input()
+num = massivenum.split()
+massive = []
+massive.extend(num)
 list_massive = []
 for i in range(len(massive)):
     if int(massive[i]) % 3 == 0:
